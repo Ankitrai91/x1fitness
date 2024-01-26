@@ -11,6 +11,14 @@ import {Link} from 'react-scroll'
 const Hero = () => {
   const transition = { duration: 3, type: "spring" };
   const mobile = window.innerWidth<=768? true:false;
+
+  const companyWhatsappNumber = '1234567890'; // Replace with your company's WhatsApp number
+  const messageTemplate = encodeURIComponent('Hello, I am interested in joining.'); // Your predefined message
+
+  const handleJoinNowClick = () => {
+    const whatsappLink = `https://wa.me/${companyWhatsappNumber}?text=${messageTemplate}`;
+    window.location.href = whatsappLink;
+  };
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
@@ -47,19 +55,19 @@ const Hero = () => {
         <div className="figures">
           <div>
             <span>
-              <NumberCounter end={140} start={100} delay={4} preFix="+" />
+              <NumberCounter end={4} start={1} delay={4} preFix="+" />
             </span>
             <span>expert coaches</span>
           </div>
           <div>
             <span>
-              <NumberCounter end={978} start={878} delay={4} preFix="+" />
+              <NumberCounter end={128} start={50} delay={4} preFix="+" />
             </span>
             <span>Members joined</span>
           </div>
           <div>
             <span>
-              <NumberCounter end={50} delay={2} preFix="+" />
+              <NumberCounter end={6} delay={2} preFix="+" />
             </span>
             <span>fitness programs</span>
           </div>
@@ -74,11 +82,14 @@ const Hero = () => {
 
       {/* Right Side */}
       <div className="right-h">
-        <button className="btn">
+        {/* <button className="btn">
           <Link to = 'join-us' smooth={true} spy={true}>
           Join Now
           </Link>
-          </button>
+          </button> */}
+            <button className="btn" onClick={handleJoinNowClick}>
+      Join Nows
+    </button>
 
         {/* heart rate */}
         <motion.div

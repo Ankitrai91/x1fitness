@@ -7,6 +7,8 @@ import nb from '../../assets/nb.png';
 import adidas from '../../assets/adidas.png'
 import nike from '../../assets/nike.png'
 import tick from "../../assets/tick.png";
+import beingstrong from "../../assets/beingstrong.png";
+
 import "./Reasons.css";
 const Reasons = () => {
   return (
@@ -26,19 +28,19 @@ const Reasons = () => {
         <div className="details-r">
           <div>
             <img src={tick} alt="" />
-            <span>over 140+ expert coachs</span>
+            <span>Experienced and certified personal trainers.</span>
           </div>
           <div>
             <img src={tick} alt="" />
-            <span>train smarter and faster than before</span>
+            <span>Results-Driven Workouts</span>
           </div>
           <div>
             <img src={tick} alt="" />
-            <span>1 free program for new member</span>
+            <span>Flexible Timings</span>
           </div>
           <div>
             <img src={tick} alt="" />
-            <span>reliable partners</span>
+            <span>Your Journey to Fitness Starts Here!</span>
           </div>
         </div>
         <span style={{color: "var(--gray)", fontWeight: "normal"}}>OUR PARTNERS</span>
@@ -46,6 +48,7 @@ const Reasons = () => {
               <img src={nb} alt="" />
               <img src={adidas} alt="" />
               <img src={nike} alt="" />
+              <img className="beingstrong" src={beingstrong} alt="" />
         </div>
       </div>
     </div>

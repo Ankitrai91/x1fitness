@@ -9,10 +9,10 @@
   padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
-  height: 20rem;
+  /* height: 20rem; */
 }
 .social-links{
     display: flex;
@@ -61,4 +61,142 @@
     height: 12rem;
     filter: blur(200px);
     background: rgb(255, 115, 0);
+}
+
+
+.contact-info{
+    margin:0;
+    padding:0;
+  }
+  .contact-info li {
+      font-size: 16px;
+      list-style: none;
+      margin: 0 0 20px 0;
+      position: relative;
+      padding-left: 40px;
+  }
+  .contact-info li i {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 22px;
+      color: #00ADB5;
+  }
+  
+  footer nav ul{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    list-style: none;
+  }
+  
+  footer nav li a{
+    display:block;
+    padding: 5px 2px 5px 2px;
+    text-decoration: none;
+  }
+  
+  footer nav li a:hover{
+    background-color: #eee;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+} */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card {
+    width: 86%;
+    border: 2px solid #F48915;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    color: #F48915;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family:  sans-serif,
+
+}
+
+.info-container {
+    display: flex;
+}
+
+.info {
+    flex: 1;
+    padding: 4.5625rem 5.6875rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info h4 {
+    display: flex;
+    align-items: center;
+}
+
+.info h4 i {
+    font-size: 24px;
+    color: #red700;
+    margin-right: 5px;
+    animation: bounce 1s infinite;
+}
+
+.info h6 p {
+    margin: .375rem;
+}
+
+.map-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.map {
+    border: 1px solid #000;
+    width: 250px;
+    height: 250px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+span.ms-2.font-bold {
+  font-size: 29px;
+}
+p {
+  font-size: 13px;
+  /* margin-left: 103px; */
 }

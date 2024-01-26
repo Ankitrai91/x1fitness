@@ -50,7 +50,7 @@
       font-weight: bold;
   }
   .plan>:nth-child(3){
-      font-size: 3rem;
+      font-size: 2rem;
       font-weight: bold;
   }
   .plan>:nth-child(5){
@@ -90,3 +90,7 @@
           transform: none;
       }
   }
+
+  s {
+    font-size: smaller;
+}
