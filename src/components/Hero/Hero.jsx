@@ -7,7 +7,6 @@ import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
-import {Link} from 'react-scroll'
 const Hero = () => {
   const transition = { duration: 3, type: "spring" };
   const mobile = window.innerWidth<=768? true:false;
