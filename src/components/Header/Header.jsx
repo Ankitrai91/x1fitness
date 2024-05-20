@@ -66,7 +66,7 @@ const Header = () => {
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
-              to="plans"
+              to="fullplans"
               spy={true}
               smooth={true}
             >
@@ -81,6 +81,16 @@ const Header = () => {
               smooth={true}
             >
               Testimonials
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={() => setMenuOpened(false)}
+              to="locations"
+              spy={true}
+              smooth={true}
+            >
+              Location
             </Link>
           </li>
         </ul>

@@ -11,7 +11,7 @@ const Hero = () => {
   const transition = { duration: 3, type: "spring" };
   const mobile = window.innerWidth<=768? true:false;
 
-  const companyWhatsappNumber = '1234567890'; // Replace with your company's WhatsApp number
+  const companyWhatsappNumber = '7458057071'; // Replace with your company's WhatsApp number
   const messageTemplate = encodeURIComponent('Hello, I am interested in joining.'); // Your predefined message
 
   const handleJoinNowClick = () => {
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
           <div>
             <span>
-              <NumberCounter end={128} start={50} delay={4} preFix="+" />
+              <NumberCounter end={312} start={50} delay={4} preFix="+" />
             </span>
             <span>Members joined</span>
           </div>
@@ -68,7 +68,7 @@ const Hero = () => {
             <span>
               <NumberCounter end={6} delay={2} preFix="+" />
             </span>
-            <span>fitness programs</span>
+            <span>Fitness Programs</span>
           </div>
         </div>
 
@@ -87,7 +87,7 @@ const Hero = () => {
           </Link>
           </button> */}
             <button className="btn" onClick={handleJoinNowClick}>
-      Join Nows
+      Join Now
     </button>
 
         {/* heart rate */}

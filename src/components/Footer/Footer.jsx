@@ -1,16 +1,16 @@
 import React from "react";
 import "./Footer.css";
-import Github from "../../assets/github.png";
+import JD from "../../assets/jd.png";
 import Instagram from "../../assets/instagram.png";
 import LinkedIn from "../../assets/linkedin.png";
 import Logo from '../../assets/x1logoo.png'
-import facebook from '../../assets/facebooklogo.png'
+import facebook from '../../assets/facebook.png'
 const Footer = () => {
   return (
     <div>
   
   <div className="section">
-  <div className="card">
+  <div className="card locations">
       <h4 className="title">OUR PARADISE</h4>
       <div className="info-container">
           <div className="info">
@@ -18,11 +18,10 @@ const Footer = () => {
                       className="ms-2 font-bold">X1 FITNESS</span></h4>
               <h6>
                   <p>
-                      <i className="fa-solid fa-location-dot text-white mt-2"></i> 5/596 <br />
-                      <span className="font-bold text-danger">Shanker Nager colony,ranidiha,</span><br />
-                       Near Baghicha Academy, Khorabar , Gorakhpur, India, Uttar Pradesh<br />
+                      <i className="fa-solid fa-location-dot text-white mt-2"></i> Near Baghicha Academy<br />
+                      <span className="font-bold text-danger">Shankar Nagar colony,Rani Diha,</span><br /> Khorabar , Gorakhpur, India, Uttar Pradesh<br />
                       Contact Us  : 07458057071<br />
-                      Email       :
+                      Email       : x1fitness.contact@gmail.com
 
                   </p>
               </h6>
@@ -45,10 +44,16 @@ const Footer = () => {
        <hr />
       <div className="footer">
         <div className="social-links">
-          <img src={Github} alt="" />
-          <img src={Instagram} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={facebook} alt="" />
+          <a href="https://www.instagram.com/x1fitnessgkp/" target="_blank" rel="noreferrer">
+      <img src={Instagram} alt="" />
+    </a>
+          <a href="https://www.justdial.com/Gorakhpur/X1-Fitness-Near-Baghicha-Academy-Shankar-Nagar-Colony-Rani-Diha-Divya-Nagar-Colony/9999PX551-X551-231228062104-B4R8_BZDET" target="_blank" rel="noreferrer">
+      <img src={JD} alt="" />
+    </a>
+    <a href="https://www.facebook.com/X1FITNESSGKP/" target="_blank" rel="noreferrer">
+      <img src={facebook} alt="" />
+    </a>
+
         </div>
         <div className="logo-f">
             <img src={Logo} alt="" />
