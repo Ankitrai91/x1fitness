@@ -11,7 +11,7 @@ export const plansData = [
       </svg>
     ),
     name: "1-Month Ignition Pass",
-    price: "1200",
+    price: "1400",
     features: [
       "Dive into Fitness with Unlimited Access",
       "Personalized Training Kickstart",
@@ -30,8 +30,8 @@ export const plansData = [
       </svg>
     ),
     name: "3-Month Momentum Membership",
-    price: "3000",
-    hprice: "3600",
+    price: "3500",
+    hprice: "4200",
     features: [
       "Elevate Your Goals with Extended Benefits",
       "Exclusive Classes and Personal Coaching",
@@ -50,8 +50,8 @@ export const plansData = [
       </svg>
     ),
     name: "Ultimate 6-Month Ascendancy Access",
-    price: "5500",
-    hprice: "7200",
+    price: "6000",
+    hprice: "8400",
     features: [
       "Experience the Pinnacle of Fitness Excellence",
       "VIP Perks, Nutrition Guidance, and Beyond",
